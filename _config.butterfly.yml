@@ -99,7 +99,7 @@ footer_img: false
 
 # Website Background
 # Can set it to color or image url
-background:
+background: '#a9a0a0'
 
 cover:
   # Disable the cover or not
@@ -155,7 +155,7 @@ index_top_img_height:
 
 # The subtitle on homepage
 subtitle:
-  enable: false
+  enable: true
   # Typewriter Effect
   effect: true
   # Customize typed.js
@@ -171,6 +171,7 @@ subtitle:
   source: false
   # If you close the typewriter effect, the subtitle will only show the first line of sub
   sub:
+    - Never put off till tomorrow what you can do today
 
 # Article layout on the homepage
 # 1: Cover on the left, info on the right
@@ -285,8 +286,8 @@ aside:
   # Position: left / right
   position: right
   display:
-    archive: true
-    tag: true
+    archive: false
+    tag: false
     category: true
   card_author:
     enable: true
@@ -300,7 +301,7 @@ aside:
     enable: true
     content: This is my Blog
   card_recent_post:
-    enable: true
+    enable: false
     # If set 0 will show all
     limit: 5
     # Sort: date / updated
@@ -444,7 +445,7 @@ wordcount:
 
 # Busuanzi count for PV / UV in site
 busuanzi:
-  site_uv: true
+  site_uv: false
   site_pv: true
   page_pv: true
 
@@ -880,9 +881,9 @@ canvas_nest:
 
 # Mouse click effects: fireworks
 fireworks:
-  enable: false
+  enable: true
   zIndex: 9999
-  mobile: false
+  mobile: true
 
 # Mouse click effects: Heart symbol
 click_heart:
